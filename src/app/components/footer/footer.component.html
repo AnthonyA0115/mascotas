@@ -1,0 +1,29 @@
+<ion-footer [translucent]="true" mode="md">
+  <ion-toolbar color="secondary">
+    <ion-tabs color="secondary">
+      <ion-tab-bar slot="bottom" color="secondary">
+
+        <ion-tab-button [routerDirection]="'root'" [routerLink]="'/graficas'" *ngIf="tipoUsu == '1' || tipoUsu == '2';">
+          <ion-icon name="globe-outline" style="font-size: 35px;"></ion-icon>
+          <ion-label>Datos</ion-label>
+        </ion-tab-button>
+        
+        <ion-tab-button [routerDirection]="'root'" [routerLink]="'/bitacora'" >
+          <ion-icon name="storefront-outline" style="font-size: 35px;"></ion-icon>
+          <ion-label>Comedores</ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button [routerDirection]="'root'" [routerLink]="'/novedades'" >
+          <ion-icon name="alert-circle-outline" style="font-size: 35px;"></ion-icon>
+          <ion-label>Novedades</ion-label>
+          <!-- <ion-badge>6</ion-badge> -->
+        </ion-tab-button>
+    
+        <ion-tab-button [routerDirection]="'root'" [routerLink]="'/visitas'" >
+          <ion-icon name="navigate-circle-outline" style="font-size: 35px;"></ion-icon>
+          <ion-label>Visitas</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>

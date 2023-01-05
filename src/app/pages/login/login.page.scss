@@ -1,0 +1,110 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#caja{
+  
+  text-align: center;
+  width: 60%;
+  display:block;
+  margin:auto;
+  margin-top: 22%;
+}
+#imagen{
+  width: 100%;
+  text-align: center;
+}
+
+#caja2{
+  text-align: center;
+
+  width: 50%;
+  display:block;
+  margin:auto;
+  margin-top: 6%;
+}
+
+#caja3{
+  text-align: center;
+
+  width: 40%;
+  display:block;
+  margin:auto;
+  margin-top: 10%;
+}
+
+
+#centrar{
+  text-align: center;
+}
+ion-card{
+  margin-top: 30%;
+  //background-color: rgb(43, 112, 190);
+
+}
+ion-header{
+  text-align: center;
+}
+
+#input{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: -3%;
+  width: 80%;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 1px 0px 4px rgb(51, 51, 51);
+}
+
+h5{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  color: #636362;
+ 
+}
+
+.botton{
+  font-size: 26px;
+  box-shadow: 1px 0px 4px #60c4e8;
+  margin-top: 10%;
+  background-color: #60c4e8;
+  color: white;
+
+}
+
+#texto{
+  text-align:center ;
+  margin: 20px;
+  font-size: 16px;
+}
+
+h4{
+  color: #636362;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+

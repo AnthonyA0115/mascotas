@@ -1,0 +1,128 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container ion-card {
+  text-align: center;
+  padding: 4px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #1a1919;
+  font-weight: bold;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+#caja{
+  width: 42%;
+  display: inline-block;
+}
+
+#centrar{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h6{
+  color: #444;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+ion-button{
+  width: 80%;
+}
+
+
+h4{
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin: 4%;
+}
+
+#texto{
+  text-align:center ;
+  margin: 40px;
+}
+
+
+ion-label{
+  margin: 1%;
+  padding: 1%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+ion-toolbar{
+    text-align: center;
+    padding-right: 52px;
+
+}
+ion-label.label{
+  margin: 1%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #444;
+}
+
+.sin{
+  background-color: #4343ff;
+  box-shadow: none;
+  margin: 5%;
+  padding: 15px;
+}
+
+.ini{
+  background-color: #33a6ae;
+  box-shadow: none;
+  margin: 5%;
+  padding: 15px;
+}
+
+.fin{
+  background-color: #32d0a7;
+  box-shadow: none;
+  margin: 5%;
+  padding: 15px;
+}
+
+.botton{
+  font-size: 29px;
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  color: white;
+  height: 40px;
+}
+
+.btnRI{
+  background-color: #3dc2ff;
+  border-radius:50px;
+  box-shadow: 0px 6px 0px 0px #0096a4;
+  border-radius:50px;
+}
+
+.btnAPS{
+  background-color: #ffc409;
+  border-radius:50px;
+  box-shadow: 0px 6px 0px 0px #a1642a;
+  border-radius:50px;
+}

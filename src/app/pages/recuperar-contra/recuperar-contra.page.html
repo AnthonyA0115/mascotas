@@ -1,0 +1,64 @@
+<!-- <ion-header mode="md">
+  <div id="caja">
+    <ion-img src="../assets/img/ecce.png"></ion-img>
+  </div>
+</ion-header> -->
+
+
+<ion-content  [fullscreen]="true" mode="md">
+  <div id="container" mode="md">
+    <div id="texto">
+        <h4>Restablecimiento de contraseña</h4>
+        <br>
+        <h3>Ingresa tu dirección de correo
+          electrónico que usaste para
+          registrarte y en breve recibirás
+          un mensaje para restablecer
+          tu contraseña.</h3>
+    </div>
+        <form [formGroup]="formulogin">
+          <ion-item id="input">
+            <!-- <ion-label position="floating">Correo</ion-label> -->
+            <!-- Input with placeholder -->
+            <ion-input formControlName="username"  type="email" placeholder="Correo electronico" required></ion-input>
+          </ion-item>
+          <ion-item id="input">
+            <!-- <ion-label position="floating">Correo</ion-label> -->
+            <!-- Input with placeholder -->
+            <ion-input formControlName="documento"  type="number" placeholder="Documento de identidad" required></ion-input>
+          </ion-item>
+        </form>
+          <div style="margin-top:8%;">
+            <div mode="md" class="cajaBotones">
+              <ion-button class="botton" color="secondary" (click)="restaurarPasword(formulogin.value)">
+                Enviar
+              </ion-button>
+            </div>
+            <br>
+            <div mode="md" class="cajaBotones">
+              <ion-button class="botton" color="medium" [routerDirection]="'root'" [routerLink]="'/login'">
+                Regresar
+              </ion-button>
+            </div>
+          </div>
+          <!-- <p>Desea <a target="_self" rel="noopener noreferrer" href="#">Registrarse</a></p> -->
+    <br>
+    <ion-toolbar id="centrar">
+      <!-- <div id="caja2">
+        <ion-img src="../assets/img/goberna.png"></ion-img>
+      </div> -->
+      <div id="caja3">
+        <ion-img src="../assets/img/eccen.png"></ion-img>
+      </div>
+    </ion-toolbar>
+  </div>
+</ion-content>
+
+
+<!-- <footer>
+  <ion-toolbar id="centrar">
+  <div id="caja2">
+    <ion-img src="../assets/img/goberna.png"></ion-img>
+  </div>
+</ion-toolbar>
+</footer> -->

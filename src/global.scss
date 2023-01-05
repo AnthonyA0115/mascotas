@@ -1,0 +1,194 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+.app-cuestion .alert-wrapper{
+    border-radius: 25px;
+    text-align: center;
+    //border-top: red 15px solid;
+    padding: 15px;
+    .alert-head{
+        text-align: center;
+        border-bottom: gray 1px solid;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .alert-button-group{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        button{
+            border: 1px solid;
+            border-radius: 6px;
+            text-align: center;
+            &:first-child{
+                background: red;
+                color: white;
+                border: 1px solid;
+                //font-weight: bold;
+                width: 42%;
+            }
+            &:last-child{
+                background: green;
+                color: white;
+                border: 1px solid;
+                //font-weight: bold;
+                width: 42%;
+            }
+            span{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.app-confirm .alert-wrapper{
+    border-radius: 25px;
+    text-align: center;
+    .alert-head{
+        text-align: center;
+        color: green;
+        h2{
+            color: green;
+        }
+    }
+    .alert-button-group{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        button{
+            border: 1px solid;
+            border-radius: 6px;
+            background: green;
+            color: white;
+            border: 1px solid;
+            font-weight: bold;
+            span{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.app-incorrect .alert-wrapper{
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+    .alert-head{
+        text-align: center;
+        color: red;
+        h2{
+            color: red;
+        }
+    }
+    .alert-button-group{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        button{
+            border: 1px solid;
+            border-radius: 6px;
+            background: green;
+            color: white;
+            border: 1px solid;
+            font-weight: bold;
+            span{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.app-end .alert-wrapper{
+    border-radius: 25px;
+    text-align: center;
+    //border-top: #8678df 15px solid;
+    padding: 15px;
+    .alert-head{
+        //color: #8678df;
+        text-align: center;
+        border-bottom: gray 1px solid;
+        margin-bottom: 10px;
+        padding: 5px;
+        /* h2{
+            color: #8678df;
+        } */
+    }
+    .alert-button-group{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        button{
+            border: 1px solid;
+            border-radius: 6px;
+            background: #8678df;
+            color: white;
+            border: 1px solid;
+            font-weight: bold;
+            span{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.app-delete .alert-wrapper{
+    border-radius: 25px;
+    text-align: center;
+   // border-top: #ffaa1c 15px solid;
+    padding: 15px;
+    .alert-head{
+        //color: #ffaa1c;
+        text-align: center;
+        border-bottom: gray 1px solid;
+        margin-bottom: 10px;
+        padding: 5px;
+        /* h2{
+            color: #ffaa1c;
+        } */
+    }
+    .alert-button-group{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        button{
+            border: 1px solid;
+            border-radius: 6px;
+            background: #ffaa1c;
+            color: white;
+            border: 1px solid;
+            font-weight: bold;
+            span{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

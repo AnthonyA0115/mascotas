@@ -1,0 +1,69 @@
+<ion-menu menuId="mainMenu" contentId="main-menu" (ionWillOpen)="MenuOpen()">
+  <ion-header style="border-bottom: 2px solid #ffffff;">
+    <ion-toolbar id="tool" color="secondary">
+        <ion-buttons slot="start" color="secondary">
+          <ion-icon name="person-circle-outline" style="font-size: 35px;"></ion-icon>
+        </ion-buttons>
+          <ion-text>
+            ¡Hola,{{usuario}}!
+          </ion-text>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content color="secondary">
+      <ion-menu-toggle  mode="md" auto-hide="false"  color="secondary">
+    
+        <ion-item  color="secondary" [routerDirection]="'root'" [routerLink]="'/home'" style="border-bottom: 1px solid #ffffff;">
+          <ion-icon slot="end" name="caret-forward"></ion-icon>
+          <ion-text>
+            inicio
+          </ion-text>
+        </ion-item>
+
+        <ion-item  color="secondary" [routerDirection]="'root'" [routerLink]="'/home'" style="border-bottom: 1px solid #ffffff;">
+          <ion-icon slot="end" name="caret-forward"></ion-icon>
+          <ion-text>
+            veterinarias
+          </ion-text>
+        </ion-item>
+        
+        <!-- <ion-item  color="secondary" [routerDirection]="'root'" [routerLink]="'/home'" style="border-bottom: 1px solid #ffffff;">
+          <ion-icon slot="end" name="caret-forward"></ion-icon>
+          <ion-text>
+            pareja perruna
+          </ion-text>
+        </ion-item> -->
+
+        <ion-item  color="secondary" [routerDirection]="'root'" [routerLink]="'/home'" style="border-bottom: 1px solid #ffffff;">
+          <ion-icon slot="end" name="caret-forward"></ion-icon>
+          <ion-text>
+            guarderia de mascotas
+          </ion-text>
+        </ion-item>
+
+        <ion-item  color="secondary" [routerDirection]="'root'" [routerLink]="'/home'" style="border-bottom: 1px solid #ffffff;">
+          <ion-icon slot="end" name="caret-forward"></ion-icon>
+          <ion-text>
+            adoptame
+          </ion-text>
+        </ion-item>
+
+      </ion-menu-toggle>
+      <div id="caja2">
+        <ion-img src="../assets/img/masco.jpg"></ion-img>
+      </div>
+  </ion-content>
+  <ion-footer style="border-top: 2px solid #ffffff;">
+    <ion-toolbar color="secondary">
+      <ion-item color="secondary" (click)="cerrarSesion()"  routerDirection="root" lines="none" detail="false" >
+        <ion-buttons slot="end" color="secondary">
+          <ion-icon name="exit"  style="font-size: 35px;"></ion-icon>
+        </ion-buttons>
+        <ion-text>
+          Salir
+        </ion-text>
+      </ion-item>
+    </ion-toolbar>
+  </ion-footer>
+</ion-menu>
+
+
